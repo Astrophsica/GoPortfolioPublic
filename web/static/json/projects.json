@@ -26,7 +26,7 @@
         "MediaRef": [
             "PortfolioSite/Thumbnail"
         ],
-        "Description": "A full-stack website created using JavaScript and Bootstrap for the front-end, as well as Go running on Linux Ubuntu VPS (Server) on back-end. Desgined to showcase projects alongside a custom banner and filter system.",
+        "Description": "A full-stack website created using JavaScript and Bootstrap for the front-end, as well as Go running on Linux Ubuntu VPS (Server) on back-end. Designed to showcase projects alongside a custom banner and filter system.",
         "Links": {
             "Website": "https://astrophsicadev.com",
             "GitHub": "https://github.com/Astrophsica/GoPortfolioPublic"
