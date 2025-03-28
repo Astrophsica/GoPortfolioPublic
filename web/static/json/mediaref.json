@@ -1,0 +1,67 @@
+{
+    "HappyUnicornAdventure/Thumbnail" : ["static/media/Projects/Happy_Unicorn_Adventure/HappyUnicornAdventure.png"],
+    "HappyUnicornAdventure/LuckMinigame" : 
+    [
+        "static/media/Projects/Happy_Unicorn_Adventure/Luck_Minigame-LowRes.gif",
+        "static/media/Projects/Happy_Unicorn_Adventure/Luck_Minigame.gif"
+    ],
+    "HappyUnicornAdventure/LizardMinigame" : 
+    [
+        "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Minigame-LowRes.gif",
+        "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Minigame.gif"
+    ],
+    "HappyUnicornAdventure/Shop" : 
+    [
+        "static/media/Projects/Happy_Unicorn_Adventure/Shop-LowRes.gif",
+        "static/media/Projects/Happy_Unicorn_Adventure/Shop.gif"
+    ],
+    "HappyUnicornAdventure/Dragon" : 
+    [
+        "static/media/Projects/Happy_Unicorn_Adventure/Dragon-LowRes.gif",
+        "static/media/Projects/Happy_Unicorn_Adventure/Dragon.gif"
+    ],
+
+    "PortfolioSite/Thumbnail" : ["static/media/Projects/Portfolio/Spiderman_Meme.jpg"],
+
+
+
+    "AlienAttack/Thumbnail" : ["static/media/Projects/Alien_Attack/AlienAttack.png"],
+    "AlienAttack/Placement" : 
+    [
+        "static/media/Projects/Alien_Attack/Alien_Attack_Placement-LowRes.gif",
+        "static/media/Projects/Alien_Attack/Alien_Attack_Placement.gif"
+    ],
+    "AlienAttack/Wall" : 
+    [
+        "static/media/Projects/Alien_Attack/Alien_Attack_Wall-LowRes.gif",
+        "static/media/Projects/Alien_Attack/Alien_Attack_Wall.gif"
+    ],
+    "AlienAttack/Turret" : 
+    [
+        "static/media/Projects/Alien_Attack/Alien_Attack_Turret-LowRes.gif",
+        "static/media/Projects/Alien_Attack/Alien_Attack_Turret.gif"
+    ],
+
+    "GoKartKit/Thumbnail" : [ "static/media/Projects/Go-Kart_Kit/Go-Kart_Kit.png"],
+
+    "AutomaticTrainPrototype/Thumbnail" : ["static/media/Projects/Automatic_Train_Prototype/AutomaticTrainPrototype.png"],
+
+    "3DGraphics/Thumbnail" : ["static/media/Projects/3D_Graphics/3D_Graphics.png"],
+
+    "2DGraphics/Thumbnail" : ["static/media/Projects/2D_Graphics_HTML5/2D_Graphics.png"],
+
+    "GoKartingXtreme/Thumbnail" : [ "static/media/Projects/Go-Karting_Xtreme/GKX.png"],
+
+    "ThreeThingGameJam/Thumbnail" : ["static/media/Projects/Three_Thing_Game/Three_Thing_Game.png"],
+
+    "Rosebridge/Thumbnail" : ["static/media/Projects/Rosebridge/Rosebridge.jpg"],
+
+    "PizzaPlaceJobSystem/Thumbnail" : ["static/media/Projects/Pizza_Place_Job_System/PizzaPlace.png"],
+
+    "AirlineCheckInSystem/Thumbnail" : ["static/media/Projects/Airline_Check-In_System/Airline_Check-In_System.png"],
+
+    "RobloxIcon" : ["static/media/Icons/Roblox.svg"],
+    "YouTubeIcon" : ["static/media/Icons/YouTube.svg"],
+    "WebsiteIcon" : ["static/media/Icons/Website.svg"],
+    "GitHubIcon" : ["static/media/Icons/GitHub.svg"]
+}

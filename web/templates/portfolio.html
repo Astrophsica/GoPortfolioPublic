@@ -1,0 +1,90 @@
+{{define "title"}}Portfolio{{end}}
+
+{{define "content"}}
+
+<div class="container">
+
+    <div class="text-center">
+        <br>
+        <h3>Portfolio</h3>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <p id="Tags">Filter by :
+                {{range $tagName := .SortedTagKeys}}
+                    {{$tagType := index $.Tags $tagName}}
+                    <button type="button" class="m-1 btn btn-sm btn-outline-{{$tagType}}">{{$tagName}}</button>
+                {{end}}
+            </p>
+        </div>
+    </div>
+
+    <div id="YearsDiv">
+        {{range $element := .SortedYearKeys}}
+            <div class="card mt-5 mb-5 year">
+                <h3 class="card-header text-center">{{$element}}</h3>
+                <div class="card-body">
+                    <div class="row row-cols-1 row-cols-md-3 g-4" id="{{$element}}-cards">
+
+                        {{$currentYearProjects := index $.ProjectsByYear $element}}
+                        {{range $project := $currentYearProjects}}
+                            <div class="col project">
+                                <div class="card">
+                                    <div class="carousel slide" data-bs-ride="carousel" id="{{$project.ProjectId}}">
+                                        <div class="carousel-inner">
+
+                                            {{$firstImage := 1}}
+                                            {{range $mediaRef, $medias := $project.Media}} 
+                                                <div class="carousel-item placeholder-glow ratio ratio-16x9 {{if eq $firstImage 1}} {{$firstImage = 0}} active {{end}}">
+                                                    <img src="{{index $medias 0}}" data-media="{{range $index, $media := $medias}}{{if ne $index 0}},{{end}}{{$media}}{{end}}">
+                                                </div>
+                                            {{end}}
+
+                                        </div>
+                                        <button class="carousel-control-prev {{if eq (len $project.Media) 1}}hidden{{end}}" type="button" data-bs-slide="prev" data-bs-target="#{{$project.ProjectId}}">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next {{if eq (len $project.Media) 1}}hidden{{end}}" type="button" data-bs-slide="next" data-bs-target="#{{$project.ProjectId}}">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">{{$project.DisplayName}}</h3>
+                                        <h5 class="card-subtitle text-body-secondary">{{$project.Subtitle}}</h5>
+                                        <p class="card-text mt-3">{{$project.Description}}</p>
+                                        <p class="links"> Links: 
+                                            {{range $linkName, $linkURL := $project.Links}}
+                                                <a class="card-link" target="_blank" href="{{$linkURL}}">
+                                                    <img class="icon" alt="{{$linkName}}" src="{{index $.Icons $linkName}}"></a>
+                                            {{end}}
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        {{range $tagName := $project.Tags}}
+                                            <span class="badge text-bg-{{index $.Tags $tagName}}">{{$tagName}}</span>
+                                        {{end}}
+                                    </div>
+                                </div>
+                            </div>
+                    {{end}}
+                
+
+                    </div>
+                </div>
+            </div>
+        {{end}}
+
+    </div>
+</div>
+{{end}}
+
+
+{{define "js"}}
+<script type="module" src="static/js/Projects/tagsmanager.js"></script>
+<script type="module" src="static/js/data-medialoader.js"></script>
+{{end}}
+
+{{template "base" .}}
