@@ -10,6 +10,11 @@ var Tags =
         ["Enabled"] : false,
         ["Type"] : "primary"
     },
+    ["Go"] : 
+    {
+        ["Enabled"] : false,
+        ["Type"] : "primary"
+    },
     ["Web (HTML | CSS | JavaScript)"] : 
     {
         ["Enabled"] : false,
@@ -21,6 +26,11 @@ var Tags =
         ["Type"] : "secondary"
     },
     ["Unity"] : 
+    {
+        ["Enabled"] : false,
+        ["Type"] : "secondary"
+    },
+    ["Linux"] : 
     {
         ["Enabled"] : false,
         ["Type"] : "secondary"
