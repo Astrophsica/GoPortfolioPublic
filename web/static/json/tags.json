@@ -1,9 +1,11 @@
 {
     "Lua" : "primary",
     "C#": "primary",
+    "Go": "primary",
     "Web (HTML | CSS | JavaScript)": "primary",
     "Roblox": "secondary",
     "Unity": "secondary",
+    "Linux": "secondary",
     "University": "secondary",
     "Open Source": "secondary",
     "OpenGL": "secondary",

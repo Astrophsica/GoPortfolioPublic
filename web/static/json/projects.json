@@ -26,13 +26,15 @@
         "MediaRef": [
             "PortfolioSite/Thumbnail"
         ],
-        "Description": "A website created using HTML, JavaScript and Bootstrap. Features projects created by AstrophsicaDev/Humza with filter options to quickly find relavent experiences.",
+        "Description": "A full-stack website created using JavaScript and Bootstrap for the front-end, as Go running on Linux Ubuntu VPS (Server) on back-end. Desgined to showcase projects alongside a custom banner and filter system.",
         "Links": {
-            "Website": "https://astrophsicadev.com"
+            "Website": "https://astrophsicadev.com",
+            "GitHub": "https://github.com/Astrophsica/GoPortfolioPublic"
         },
         "Tags": [
             "Web (HTML | CSS | JavaScript)",
-            "Bootstrap"
+            "Bootstrap",
+            "Go"
         ]
     },
     {
