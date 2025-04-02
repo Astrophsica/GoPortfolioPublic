@@ -36,21 +36,21 @@
 
 
 
-    "AlienAttack/Thumbnail" : ["static/media/Projects/Alien_Attack/AlienAttack.png"],
+    "AlienAttack/Thumbnail" : ["static/media/Projects/Alien_Attack/AlienAttack_Img.webp"],
     "AlienAttack/Placement" : 
     [
-        "static/media/Projects/Alien_Attack/Alien_Attack_Placement-LowRes.gif",
-        "static/media/Projects/Alien_Attack/Alien_Attack_Placement.gif"
+        "static/media/Projects/Alien_Attack/AlienAttackPlacement_Animate_LowRes.webp",
+        "static/media/Projects/Alien_Attack/AlienAttackPlacement_Animate.webp"
     ],
     "AlienAttack/Wall" : 
     [
-        "static/media/Projects/Alien_Attack/Alien_Attack_Wall-LowRes.gif",
-        "static/media/Projects/Alien_Attack/Alien_Attack_Wall.gif"
+        "static/media/Projects/Alien_Attack/AlienAttackWall_Animate_LowRes.webp",
+        "static/media/Projects/Alien_Attack/AlienAttackWall_Animate.webp"
     ],
     "AlienAttack/Turret" : 
     [
-        "static/media/Projects/Alien_Attack/Alien_Attack_Turret-LowRes.gif",
-        "static/media/Projects/Alien_Attack/Alien_Attack_Turret.gif"
+        "static/media/Projects/Alien_Attack/AlienAttackTurret_Animate_LowRes.webp",
+        "static/media/Projects/Alien_Attack/AlienAttackTurret_Animate.webp"
     ],
 
     "GoKartKit/Thumbnail" : [ "static/media/Projects/Go-Kart_Kit/Go-Kart_Kit.png"],
