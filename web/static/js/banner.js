@@ -1,4 +1,4 @@
-import { LoadMediaRefGradually, GetLowestQualityMediaSrc } from "./mediamanagerv2.js"
+import { LoadMediaRefGradually, GetLowestQualityMediaSrc } from "./mediaManager.js"
 
 // Banner
 const canvas = document.getElementById("banner");

@@ -32,12 +32,14 @@
                             <div class="col project">
                                 <div class="card">
                                     <div class="carousel slide" data-bs-ride="carousel" id="{{$project.ProjectId}}">
-                                        <div class="carousel-inner">
+                                        <div class="carousel-inner placeholder-glow">
 
                                             {{$firstImage := 1}}
                                             {{range $mediaRef, $medias := $project.Media}} 
-                                                <div class="carousel-item placeholder-glow ratio ratio-16x9 {{if eq $firstImage 1}} {{$firstImage = 0}} active {{end}}">
-                                                    <img src="{{index $medias 0}}" data-media="{{range $index, $media := $medias}}{{if ne $index 0}},{{end}}{{$media}}{{end}}">
+                                                <div class="carousel-item {{if eq $firstImage 1}} {{$firstImage = 0}} active {{end}}">
+                                                    <div class="placeholder ratio ratio-16x9">
+                                                        <img class="gradual-load-media hidden" data-media="{{range $index, $media := $medias}}{{if ne $index 0}},{{end}}{{$media}}{{end}}">
+                                                    </div>
                                                 </div>
                                             {{end}}
 
@@ -84,7 +86,7 @@
 
 {{define "js"}}
 <script type="module" src="static/js/Projects/tagsmanager.js"></script>
-<script type="module" src="static/js/data-medialoader.js"></script>
+<script type="module" src="static/js/portfolioMediaLoader.js"></script>
 {{end}}
 
 {{template "base" .}}

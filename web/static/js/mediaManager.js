@@ -1,5 +1,5 @@
 var MediaRefs = null
-var eventName = "ImgUpdate"
+var eventName = "MediaUpdate"
 
 async function loadMediaRefs() {
     const response = await fetch("static/json/mediaref.json");
