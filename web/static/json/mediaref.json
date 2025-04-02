@@ -53,26 +53,26 @@
         "static/media/Projects/Alien_Attack/AlienAttackTurret_Animate.webp"
     ],
 
-    "GoKartKit/Thumbnail" : [ "static/media/Projects/Go-Kart_Kit/Go-Kart_Kit.png"],
+    "GoKartKit/Thumbnail" : [ "static/media/Projects/Go-Kart_Kit/Go-Kart_Kit.webp"],
 
-    "AutomaticTrainPrototype/Thumbnail" : ["static/media/Projects/Automatic_Train_Prototype/AutomaticTrainPrototype.png"],
+    "AutomaticTrainPrototype/Thumbnail" : ["static/media/Projects/Automatic_Train_Prototype/AutomaticTrainPrototype.webp"],
 
-    "3DGraphics/Thumbnail" : ["static/media/Projects/3D_Graphics/3D_Graphics.png"],
+    "3DGraphics/Thumbnail" : ["static/media/Projects/3D_Graphics/3D_Graphics.webp"],
 
-    "2DGraphics/Thumbnail" : ["static/media/Projects/2D_Graphics_HTML5/2D_Graphics.png"],
+    "2DGraphics/Thumbnail" : ["static/media/Projects/2D_Graphics_HTML5/2D_Graphics.webp"],
 
     "GoKartingXtreme/Thumbnail" : ["static/media/Projects/Go-Karting_Xtreme/Thumbnail.webp"],
     "GoKartingXtreme/ControlPanel" : ["static/media/Projects/Go-Karting_Xtreme/ControlPanel.webp"],
     "GoKartingXtreme/SessionScreen" : ["static/media/Projects/Go-Karting_Xtreme/SessionScreen.webp"],
     "GoKartingXtreme/StartLine" : ["static/media/Projects/Go-Karting_Xtreme/StartLine.webp"],
 
-    "ThreeThingGameJam/Thumbnail" : ["static/media/Projects/Three_Thing_Game/Three_Thing_Game.png"],
+    "ThreeThingGameJam/Thumbnail" : ["static/media/Projects/Three_Thing_Game/Three_Thing_Game.webp"],
 
-    "Rosebridge/Thumbnail" : ["static/media/Projects/Rosebridge/Rosebridge.jpg"],
+    "Rosebridge/Thumbnail" : ["static/media/Projects/Rosebridge/Rosebridge.webp"],
 
-    "PizzaPlaceJobSystem/Thumbnail" : ["static/media/Projects/Pizza_Place_Job_System/PizzaPlace.png"],
+    "PizzaPlaceJobSystem/Thumbnail" : ["static/media/Projects/Pizza_Place_Job_System/PizzaPlace.webp"],
 
-    "AirlineCheckInSystem/Thumbnail" : ["static/media/Projects/Airline_Check-In_System/Airline_Check-In_System.png"],
+    "AirlineCheckInSystem/Thumbnail" : ["static/media/Projects/Airline_Check-In_System/Airline_Check-In_System.webp"],
 
     "RobloxIcon" : ["static/media/Icons/Roblox.svg"],
     "YouTubeIcon" : ["static/media/Icons/YouTube.svg"],
