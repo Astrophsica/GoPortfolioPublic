@@ -61,7 +61,10 @@
 
     "2DGraphics/Thumbnail" : ["static/media/Projects/2D_Graphics_HTML5/2D_Graphics.png"],
 
-    "GoKartingXtreme/Thumbnail" : [ "static/media/Projects/Go-Karting_Xtreme/GKX.png"],
+    "GoKartingXtreme/Thumbnail" : ["static/media/Projects/Go-Karting_Xtreme/Thumbnail.webp"],
+    "GoKartingXtreme/ControlPanel" : ["static/media/Projects/Go-Karting_Xtreme/ControlPanel.webp"],
+    "GoKartingXtreme/SessionScreen" : ["static/media/Projects/Go-Karting_Xtreme/SessionScreen.webp"],
+    "GoKartingXtreme/StartLine" : ["static/media/Projects/Go-Karting_Xtreme/StartLine.webp"],
 
     "ThreeThingGameJam/Thumbnail" : ["static/media/Projects/Three_Thing_Game/Three_Thing_Game.png"],
 

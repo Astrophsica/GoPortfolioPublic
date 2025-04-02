@@ -133,7 +133,10 @@
         "Year": 2019,
         "Subtitle": "Late 2019",
         "MediaRef": [
-            "GoKartingXtreme/Thumbnail"
+            "GoKartingXtreme/Thumbnail",
+            "GoKartingXtreme/StartLine",
+            "GoKartingXtreme/SessionScreen",
+            "GoKartingXtreme/ControlPanel"
         ],
         "Description": "A roleplay Go-Karting game which is designed to be ran by other players. Achieved 150,000 visits before being sold for £100 to MarketManager1",
         "Links": {
