@@ -32,9 +32,17 @@
         "static/media/Projects/Happy_Unicorn_Adventure/Dragon_Animate.webp"
     ],
 
-    "PortfolioSite/Thumbnail" : ["static/media/Projects/Portfolio/Spiderman_Meme.webp"],
+    
+    "PortfolioSite/Website" : 
+    [
+        "static/media/Projects/Portfolio/Website_Img.webp",
+        "static/media/Projects/Portfolio/Website_Animate_LowRes.webp",
+        "static/media/Projects/Portfolio/Website_Animate.webp"
+    ],
+    "PortfolioSite/Spiderman" : ["static/media/Projects/Portfolio/Spiderman_Meme.webp"],
 
-
+    "DJMN/Thumbnail" : ["static/media/Projects/DJMN/Thumbnail.webp"],
+    "DJMN/RouteChanging" : ["static/media/Projects/DJMN/RouteChanging_Animate.webp"],
 
     "AlienAttack/Thumbnail" : ["static/media/Projects/Alien_Attack/AlienAttack_Img.webp"],
     "AlienAttack/Placement" : 
