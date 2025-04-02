@@ -8,29 +8,28 @@
     [
         "static/media/Projects/Happy_Unicorn_Adventure/Luck_Img_LowRes.webp",
         "static/media/Projects/Happy_Unicorn_Adventure/Luck_Img.webp",
-        "static/media/Projects/Happy_Unicorn_Adventure/Luck_Minigame-LowRes.gif",
-        "static/media/Projects/Happy_Unicorn_Adventure/Luck_Minigame.gif"
+        "static/media/Projects/Happy_Unicorn_Adventure/Luck_Animate_LowRes.webp",
+        "static/media/Projects/Happy_Unicorn_Adventure/Luck_Animate.webp"
     ],
     "HappyUnicornAdventure/LizardMinigame" : 
     [
         "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Img_LowRes.webp",
         "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Img.webp",
-        "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Minigame-LowRes.gif",
-        "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Minigame.gif"
+        "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Animate_LowRes.webp",
+        "static/media/Projects/Happy_Unicorn_Adventure/Lizard_Animate.webp"
     ],
     "HappyUnicornAdventure/Shop" : 
     [
         "static/media/Projects/Happy_Unicorn_Adventure/Shop_Img_LowRes.webp",
         "static/media/Projects/Happy_Unicorn_Adventure/Shop_Img.webp",
-        "static/media/Projects/Happy_Unicorn_Adventure/Shop-LowRes.gif",
-        "static/media/Projects/Happy_Unicorn_Adventure/Shop.gif"
+        "static/media/Projects/Happy_Unicorn_Adventure/Shop_Animate.webp"
     ],
     "HappyUnicornAdventure/Dragon" : 
     [
         "static/media/Projects/Happy_Unicorn_Adventure/Dragon_Img_LowRes.webp",
         "static/media/Projects/Happy_Unicorn_Adventure/Dragon_Img.webp",
-        "static/media/Projects/Happy_Unicorn_Adventure/Dragon-LowRes.gif",
-        "static/media/Projects/Happy_Unicorn_Adventure/Dragon.gif"
+        "static/media/Projects/Happy_Unicorn_Adventure/Dragon_Animate_LowRes.webp",
+        "static/media/Projects/Happy_Unicorn_Adventure/Dragon_Animate.webp"
     ],
 
     "PortfolioSite/Thumbnail" : ["static/media/Projects/Portfolio/Spiderman_Meme.jpg"],
