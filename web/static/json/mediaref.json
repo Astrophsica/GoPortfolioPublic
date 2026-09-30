@@ -1,4 +1,17 @@
 {
+    "PresentDropper/Fly" : 
+    [
+        "static/media/Projects/Present_Dropper/Sled_Fly.webp"
+    ],
+    "PresentDropper/Ramp" : 
+    [
+        "static/media/Projects/Present_Dropper/Sled_Ramp.webp"
+    ],
+    "PresentDropper/Crash" : 
+    [
+        "static/media/Projects/Present_Dropper/Sled_Crash.webp"
+    ],
+
     "HappyUnicornAdventure/Thumbnail" : 
     [
         "static/media/Projects/Happy_Unicorn_Adventure/Thumbnail_LowRes.webp",
